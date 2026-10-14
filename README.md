@@ -104,7 +104,7 @@ pip install -r requirements.txt
 mysql -u root -p < resume_analyzer.sql
 
 # 4. Configure environment variables
-cp .env.example .env            # then edit .env with your values
+Create a .env file with the variables listed below            # then edit .env with your values
 
 # 5. Run
 python app.py
